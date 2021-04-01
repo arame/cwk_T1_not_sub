@@ -1,0 +1,29 @@
+Initial Environment
+X X X X X X X     cells 0 - 6
+X X . b X b X     cells 7 - 13
+X b X b . b X     cells 14 - 20
+X b b S X . X     cells 21 - 27
+X . X b X . X     cells 28 - 34
+X . . b X b X     cells 35 - 41
+X X X X X X X     cells 42 - 48
+The grid is updated and printed for each step. In each cell you see the following symbols:
+X - obstacle
+. - empty
+b - breadcrumb
+A - Agent (Pacman)
+G - Ghost
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+The Hyperparameters
+-------------------
+learning rate (alpha) = 0.8
+discount factor (gamma) = 0.51
+total number of breadcrumbs 10
+output charts can be found in the images folder
+End of environment design for Pacman
+----------------------------------------------------------------------------------------------------
